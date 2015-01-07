@@ -24,7 +24,7 @@ window.matths.renderer = (function () {
 		_canvasElement = document.createElement('canvas');
 		_canvasElement.setAttribute('width', _width);
 		_canvasElement.setAttribute('height', _height);
-		_canvasElement.setAttribute('style', 'position: absolute; top: 0; left:0;');
+		_canvasElement.setAttribute('style', 'margin: 5% 10% auto 10%');
 
 		_body = document.documentElement.getElementsByTagName('body')[0];
 		_body.appendChild(_canvasElement);
