@@ -77,14 +77,7 @@
 
 	document.addEventListener('keydown', function (e) {
 		var direction;
-		if (e.key) {
-			// firefox
-			direction = e.key.toLowerCase();
-		} else if (e.keyIdentifier) {
-			// chrome
-			direction = e.keyIdentifier.toLowerCase();
-		} else if (e.keyCode && _keys[e.keyCode]){
-			// fallback
+		if (e.keyCode && _keys[e.keyCode]){
 			direction = _keys[e.keyCode];
 		}
 		_snake.setDirection(direction);

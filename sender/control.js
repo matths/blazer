@@ -73,7 +73,6 @@
 	var getEventDirection = function (e) {
 		var direction = false;
 		if (e.keyCode && _keys[e.keyCode]){
-			// fallback
 			direction = _keys[e.keyCode];
 		}
 		return direction;
