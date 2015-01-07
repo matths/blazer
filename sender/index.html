@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>blazer controller</title>
+		<meta charset="utf-8" />
+		<link href="styles.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<label for="ipInput">
+			<span>ip address:</span>
+			<input id="ipInput" type="text" value="192.168.12.41">
+		</label>
+
+		<button id="startBtn">run App</button>
+		<button id="stopBtn">quit App</button>
+
+		<button class="controlBtn" id="upBtn">↑</button>
+		<button class="controlBtn" id="leftBtn">←</button>
+		<button class="controlBtn" id="downBtn">↓</button>
+		<button class="controlBtn" id="rightBtn">→</button>
+
+		<a href="http://192.168.12.41:9431/apps/~blazer">AppStatus</a>
+
+		<script src="http://openflint.github.io/flint-web-sender-sdk/sender.js"></script>
+		<script src="control.js"></script>
+	</body>
+</html>

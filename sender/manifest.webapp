@@ -1,0 +1,13 @@
+{
+    "name":"Balzer",
+    "description":"blazer is a simple snake game to demonstrate the MatchStick SDK",
+    "launch_path": "/blazer/sender/index.html",
+    "developer": {
+        "name": "matths",
+        "url": "http://matths.github.io/blazer/sender/index.html"
+    },
+    "default_locale": "en",
+    "permissions": {
+        "systemXHR": { "description": "Required to make Ajax Calls over the Network" }
+    }
+}
